@@ -15,11 +15,14 @@
     </li>
     <li>
         <p>Date of Birth</p>
-        <input id="dob" type="text">
+        <input id="dd" type="date">
     </li>
     <li>
         <p>Gender</p>
-        <input id="gend" type="text">
+        <input type="radio" id="m" name="gender" value="male" />
+        <label for="m">Male</label>
+        <input type="radio" id="f" name="gender" value="female" />
+        <label for="f">Female</label>
     </li>
     <li>
         <p>Address</p>
@@ -31,6 +34,7 @@
     </li>
     <li>
         
+        <button type="submit" onclick="myFunction()">Submit</button>
     </li>
 </body>
 </html>
