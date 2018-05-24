@@ -6,7 +6,23 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <script> 
+    var n,d,g,ad,num;
+    function submission(){
+
+        n = document.getElementById("name").value;
+        d = document.getElementById("dd").value;
+        d = document.getElementById("add").value;
+        if (document.getElementById("m").checked){
+            g = document.getElementById("m").value;
+        }
+        if (document.getElementById("f").checked){
+            g = document.getElementById("f").value;
+        }
+        
+        alert(`Your name is ${n}\nYour date of birth is ${d}\nYou are a ${g}\nYou live at ${ad}`);
+    }
+    </script>
 </head>
 <body>
     <li>
@@ -19,9 +35,9 @@
     </li>
     <li>
         <p>Gender</p>
-        <input type="radio" id="m" name="gender" value="male" />
+        <input type="radio" id="m" name="gender" value="guy" />
         <label for="m">Male</label>
-        <input type="radio" id="f" name="gender" value="female" />
+        <input type="radio" id="f" name="gender" value="girl" />
         <label for="f">Female</label>
     </li>
     <li>
@@ -34,7 +50,7 @@
     </li>
     <li>
         
-        <button type="submit" onclick="myFunction()">Submit</button>
+        <button type="submit" onclick="submission()">Submit</button>
     </li>
 </body>
 </html>

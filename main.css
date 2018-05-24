@@ -1,0 +1,75 @@
+body {
+    background-color:aliceblue;
+}
+#nameSide {
+    margin-top: 20px;    
+    background-color: #D6EAF8;  
+    box-shadow: 0 8px 6px -6px #707B7C;}
+p {padding: 30px; font-family:tahoma; font-size:18px; color:#1F618D;}
+
+#dobSide {
+    
+    background-color: #D6EAF8;  
+    box-shadow: 0 8px 6px -6px #707B7C;}
+
+
+#genderSide {
+    background-color: #D6EAF8;  
+    box-shadow: 0 8px 6px -6px #707B7C;
+}
+
+#addressSide {
+    background-color: #D6EAF8;  
+    box-shadow: 0 8px 6px -6px #707B7C;
+}
+
+#numberSide{
+    background-color: #D6EAF8;  
+    box-shadow: 0 8px 6px -6px #707B7C;
+}
+
+#submitSide{
+    background-color: #D6EAF8;  
+    box-shadow: 0 8px 6px -6px #707B7C; 
+}
+#firstName {
+    background-color:#EAF2F8;
+    margin-top: 20px;
+    }
+label{
+    color: #1F618D;
+}
+button {
+    margin-top:20px;
+    margin-left:15vmax;
+}
+
+#m{
+    margin-top: 40px; 
+}
+#firstName{
+    background-color:#EAF2F8;
+    margin-top: 20px;
+}
+#lastName{
+    background-color:#EAF2F8;
+    margin-top: 20px;
+}
+#dob{
+    background-color:#EAF2F8;
+    margin-top: 20px;
+}
+#add{
+    background-color:#EAF2F8;
+    margin-top: 20px;
+}
+#phon{
+    background-color:#EAF2F8;
+    margin-top: 20px;
+}
+#submitSide{
+    margin-left: 40px;
+    background-color: #D6EAF8;  
+    box-shadow: 0 8px 6px -6px #707B7C; 
+    padding-bottom: 40px;
+}
